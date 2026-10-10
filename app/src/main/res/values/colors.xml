@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lumina_bg_base">#FF0F1115</color>
+    <color name="lumina_bg_raised">#FF1A1D23</color>
+    <color name="lumina_accent">#FF3B82F6</color>
+    <color name="lumina_light_base">#FFF5F6F8</color>
+</resources>

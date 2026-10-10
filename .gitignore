@@ -1,0 +1,26 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Çıktılar
+*.apk
+*.aab
+output-metadata.json
+
+# Gizli imzalama bilgileri (yalnızca GitHub Secrets üzerinden)
+keystore.properties
+*.jks
+release.keystore
+
+# İşletim sistemi
+.DS_Store
+Thumbs.db
