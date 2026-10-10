@@ -457,7 +457,7 @@ private fun ControlsOverlay(
         ) {
             // ------------------------------------------------ üst çubuk
             Row(verticalAlignment = Alignment.CenterVertically) {
-                OverlayButton(Icons.AutoMirrored.Rounded.ArrowBack, stringResource(R.string.back), callbacks.onBack)
+                OverlayButton(Icons.AutoMirrored.Rounded.ArrowBack, stringResource(R.string.back), onClick = callbacks.onBack)
                 Column(Modifier.weight(1f).padding(horizontal = 4.dp)) {
                     Text(
                         state.current?.title.orEmpty(),
